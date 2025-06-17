@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="nav-left">
           <Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
           <Link to="/makepayments" onClick={() => setIsMenuOpen(false)}>Order</Link>
-          <Link to="/addproduct" onClick={() => setIsMenuOpen(false)}>Add Product</Link> {/* 🔥 New Link */}
+          {/* <Link to="/addproduct" onClick={() => setIsMenuOpen(false)}>Add Product</Link> 🔥 New Link */}
           <Link to="/about" onClick={() => setIsMenuOpen(false)}>About</Link>
         </div>
 
